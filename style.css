@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
+    color: #335384;
+}
+
+.sidebar{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    background-color: #335384;
+    width: 250px;;
+    height: max-content;
+    color: white;
+}
+
+#name{
+    font-family: 'Lato', sans-serif;
+}
+
+#school, #carreer{
+    line-height: 0.5cm;
+    font-weight: bold;
+    font-style: italic;
+    color: #5BA7D1;
+}
+
+.contact{
+    line-height: normal;
+}
+
+.skills{
+    line-height: 0.5;
+}
+
+.skills li{
+    line-height: normal;
+}
+
+.certifications{
+    line-height: normal;
 }
